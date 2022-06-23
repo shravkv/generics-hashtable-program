@@ -8,6 +8,7 @@ public class HashTable {
         System.out.println("Welcome to Hashtable Program");
         Hashtable<String, Integer> hashtable = new Hashtable<>();
         String input = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+        input = input.replace("avoidable", "");
         String[] inputArray = input.toLowerCase().split(" ");
         for (String str : inputArray) {
             if (hashtable.containsKey(str)) {
