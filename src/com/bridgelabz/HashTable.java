@@ -7,7 +7,7 @@ public class HashTable {
     public static void main(String[] args) {
         System.out.println("Welcome to Hashtable Program");
         Hashtable<String, Integer> hashtable = new Hashtable<>();
-        String input = "To be or not to be";
+        String input = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         String[] inputArray = input.toLowerCase().split(" ");
         for (String str : inputArray) {
             if (hashtable.containsKey(str)) {
